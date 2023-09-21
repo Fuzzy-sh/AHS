@@ -1,4 +1,5 @@
-# Health-Record-Preprocessing-Techniques-to-Extract-ICD-Codes-and-Convert-Raw-Data-into-Time-Series-Re
+# Exploring Pre-processing Windowing Methods for Estimating Risk of Future Homelessness and Police Interactions in Individuals with Addiction or Mental Health Leveraging Recurrent Neural Networks as Recommender Systems![image](https://github.com/Fuzzy-sh/Exploring-Pre-processing-Windowing-Methods-for-Estimating-Risk-of-Future-Homelessness-and-Police-Int/assets/38839459/57a7ef01-f6b3-46d6-9cd4-c74d74bab37e)
+
 By using program languages (Python), we can extract important data from these records, including International Classification of Diseases (ICD) codes, which are used to classify and code diagnoses, symptoms, and medical procedures.
 
 # Here are the files and the explanation for each files.
