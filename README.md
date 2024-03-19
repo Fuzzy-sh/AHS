@@ -1,4 +1,5 @@
-![image](https://github.com/Fuzzy-sh/Exploring-Pre-processing-Windowing-Methods-for-Estimating-Risk-of-Future-Homelessness-and-Police-Int/assets/38839459/57a7ef01-f6b3-46d6-9cd4-c74d74bab37e)
+
+# Exploring the Impact of Preprocessing Techniques for Building a Real-Time Prediction Tool using Time-Series Medical Data
 
 By using program languages (Python), we can extract important data from these records, including International Classification of Diseases (ICD) codes, which are used to classify and code diagnoses, symptoms, and medical procedures.
 
