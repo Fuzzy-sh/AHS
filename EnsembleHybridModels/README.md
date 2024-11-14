@@ -1,5 +1,5 @@
 <a href="https://www.linkedin.com/in/fuzzy-shahidi"><img src="https://img.shields.io/badge/Linkdin-Fuzzy%20Shahidi-blue.svg" alt="DOI"></a>
-# Title:  Enhancing Risk Prediction in Mental Health Using Ensemble Hybrid Models and Administrative Data
+# Title:  Enhancing Risk Prediction in Mental Health Using Ensemble Hybrid Models and Administrative Healthcare Data with Irregular Intervals
 
 # Abstract 
 
@@ -17,4 +17,4 @@ Risk prediction estimates the probability of future adverse outcomes for high-ri
 
 
 ### Accepted in IEEE BIBM 2024 conference : <a href="https://ieeebibm.org/BIBM2024/">link </a> 
-Link to the paper will be added later.
+The link to the paper will be added later.
