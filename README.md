@@ -2,6 +2,7 @@
 
 
 # Zero to advanced methods for the Healthcare administrative data.
+We included all the codes regarding the work that has been done for the administrative data from data preparation, traditional statistical modeling, sliding window, and patient representations, to the advanced deep learning models. 
 The order of the folders for this work is:
 
 1- <a href="https://github.com/Fuzzy-sh/AHS/tree/main/Data_preparation"> Data preparation </a>
@@ -15,7 +16,7 @@ The order of the folders for this work is:
 5- <a href="https://github.com/Fuzzy-sh/AHS/tree/main/Reinforcement_learning"> Reinforcement learning Models </a>
 
 
-We included all the codes regarding the work that has been done for the administrative data from data preparation, traditional statistical modeling, sliding window, and patient representations, to the advanced deep learning models. 
+
 
 
 
