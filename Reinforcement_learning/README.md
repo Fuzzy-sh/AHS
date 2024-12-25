@@ -1,11 +1,34 @@
 
-# Exploring the Impact of Preprocessing Techniques for Building a Real-Time Prediction Tool using Time-Series Medical Data
 
-By using program languages (Python), we can extract important data from these records, including International Classification of Diseases (ICD) codes, which are used to classify and code diagnoses, symptoms, and medical procedures.
+This program starts by reading the AHS data obtained during the data preparation phase. The main functionality is implemented in the `main_preprocessing` and `utils` Python files. The following steps are performed:
 
-# Here are the files and the explanation for each files.
+1. **Categorical Columns Transformation**:  
+   - Categorical columns, particularly those related to healthcare utilization (e.g., ER visits), are converted into dummy variables to facilitate analysis.
 
+2. **Merging Duplicate Rows**:  
+   - Rows with the same values for the same date were identified as duplicates. These rows were merged to ensure only unique entries for each date.
 
-## 1-top_level_script_fuzzy_parameters_jobArrays.sh
+3. **Processing the `sex` Column**:  
+   - The `sex` column was filtered to keep only the records for males, and boolean values (True/False) were replaced with numeric values (1/0).
 
-The purpose of the code is to generate parameter files for different jobs associated with two separate databases (dad and nacrs). These parameter files will be used to run simulations, with each set of parameters representing an individual in the database. To achieve this, the code initializes a job counter and sets a step size for the parameter range. It then removes any pre-existing parameter files and loops over the parameter range to create a set of parameters for each job.
+4. **Handling Missing Visit Records**:  
+   - Some files were incomplete and missing certain visit records. These missing visits were added to the dataset with a value of zero.
+
+5. **Truncating Homeless Outcome Records**:  
+   - For individuals with multiple homelessness outcomes, only the first recorded outcome was retained. All subsequent records were truncated.
+
+6. **Two-Year Observation Window Aggregation**:  
+   - Data was aggregated into a two-year observation window. If an AMH (Adult Mental Health) diagnosis occurred, it served as the trigger for the aggregation period. This step ensures that states are built based on either an AMH diagnosis or a two-year observation window.
+
+7. **Renaming Columns for Ease of Access**:  
+   - Columns were renamed using prefixes for clarity and organization:
+     - `m:` for metadata.
+     - `o:` for observation features.
+     - `a:` for actions.
+     - `r:` for rewards.
+   - This naming convention facilitates easier access to features for building episodes.
+
+8. **Train-Test-Validation Split**:  
+   - The dataset was split into training, testing, and validation subsets using a 70-20-10 ratio.
+
+These steps prepare the dataset for further analysis, ensuring data quality, consistency, and ease of use for modeling and research.
