@@ -21,7 +21,7 @@ Preprocessing methods are important in enhancing prediction performance for time
 ## Citation:
 
 <pre>
-@unpublished{preprocessing2024,
+@article{preprocessingShahidi2024,
   author={Shahidi, Faezehsadat and Macdonald, M Ethan and Seitz, Dallas, and Messier, Geoffrey },
   journal={IEEE Access}, 
   title={Exploring the Preprocessing of a Time-Series Administrative Healthcare Dataset on Deep Learning to Improve Prediction}, 
