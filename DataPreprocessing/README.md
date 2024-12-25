@@ -21,10 +21,15 @@ Preprocessing methods are important in enhancing prediction performance for time
 ## Citation:
 
 <pre>
-@article{preprocessingShahidi2024,
-  author={Shahidi, Faezehsadat and Macdonald, M Ethan and Seitz, Dallas, and Messier, Geoffrey },
+@ARTICLE{10807221,
+  author={Shahidi, Faezehsadat and Macdonald, M. Ethan and Seitz, Dallas and Barry, Rebecca and Messier, Geoffrey},
   journal={IEEE Access}, 
-  title={Exploring the Preprocessing of a Time-Series Administrative Healthcare Dataset on Deep Learning to Improve Prediction}, 
-  doi={10.1109/ACCESS.2024.3520425}
-  note={Accepted. DOI: 10.1109/ACCESS.2024.3520425. Accessed: 19 December 2024. [Online] Available: https://ieeexplore-ieee-org.ezproxy.lib.ucalgary.ca/abstract/document/10807221},
+  title={Exploring the Preprocessing of a Time-Series Healthcare Administrative Dataset on Deep Learning to Improve Prediction}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Medical services;Codes;Predictive models;Law enforcement;Sparse matrices;Indexes;Data models;Databases;Logic gates;Vectors;Gated recurrent unit networks;on clinical demand window structure;sliding window;sequence of event and sequence matrix representations;time-series healthcare administrative data},
+  doi={10.1109/ACCESS.2024.3520425}}
+  
   </pre>
