@@ -45,7 +45,7 @@ Preprocessing methods are important in enhancing prediction performance for time
   </pre>
 
   
-# 4- Codes in the "EnsembleHybridModels" folder accepted in the International Conference on Bioinformatics and Biomedicine (BIBM). It
+# 4- Codes in the "EnsembleHybridModels" folder accepted in the International Conference on Bioinformatics and Biomedicine (BIBM). 
 
-Will be published in BIBM conference proceedings in IEEE Xplore® Digital Library.
+It will be published in BIBM conference proceedings in the IEEE Xplore® Digital Library.
 
