@@ -32,3 +32,6 @@ This program starts by reading the AHS data obtained during the data preparation
    - The dataset was split into training, testing, and validation subsets using a 70-20-10 ratio.
 
 These steps prepare the dataset for further analysis, ensuring data quality, consistency, and ease of use for modeling and research.
+
+
+Next step I will work on the actions to make them encoded and work on the reward function to have one columns as the reward before spliting and saving
